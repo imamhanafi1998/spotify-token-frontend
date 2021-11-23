@@ -28,6 +28,12 @@ export default function App() {
       >
         SUBMIT
       </button>
+      <button
+        onClick={() => {window.open("https://developer.spotify.com/console/get-users-currently-playing-track/")}}
+        style={{ marginLeft: "20px", marginTop: "20px" }}
+      >
+        OPEN SPOTIFY PAGE
+      </button>
     </div>
   );
 }
